@@ -17,6 +17,6 @@ const SslCertificate = NativeModules.SslCertificate
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return SslCertificate.multiply(a, b);
+export function getCertificate(url: string): Promise<string> {
+  return SslCertificate.getCertificate(url);
 }
