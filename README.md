@@ -11,11 +11,11 @@ npm install react-native-ssl-certificate
 ## Usage
 
 ```js
-import { multiply } from 'react-native-ssl-certificate';
+import { getCertificate } from 'react-native-ssl-certificate';
 
 // ...
 
-const result = await multiply(3, 7);
+const result = await getCertificate("https://google.com");
 ```
 
 ## Contributing
